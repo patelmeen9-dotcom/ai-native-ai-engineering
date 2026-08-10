@@ -1,10 +1,6 @@
 # Week 1 AI-Native Project
 
-## Student instructions in Simplified Technical English
-
-This document uses ASD-STE100 writing principles.
-
-This document is not an ASD-STE100 certification.
+## Student project instructions
 
 ## 1. Project objective
 

@@ -8,4 +8,4 @@ Use public discussions, tests, and AI reviews to improve the agent.
 
 ## Deliverable
 
-Read [Week 1 AI-Native Project](deliverables/week1-ai-native-shipping-sprint-ste.md).
+Read [Week 1 AI-Native Project](deliverables/week1-ai-native-shipping-sprint.md).
