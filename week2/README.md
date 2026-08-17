@@ -22,7 +22,7 @@ We do not enforce deadlines. Students who give a deliverable the right amount of
 
 The brief does not hand you equations for entropy, information gain, mutual information, cross-entropy, KL divergence, Jensen–Shannon divergence, calibration, or value of information. It gives you the plain-English meaning, a concrete example, and **a prompt to paste into ChatGPT, Claude, or Gemini** to learn each one properly.
 
-That is deliberate. Nine of the thirteen concepts you need were never taught in the sessions. Going and learning them yourself is the assignment.
+That is deliberate. some of the concepts you need were never taught in the sessions. Going and learning them yourself is the assignment.
 
 ## Two skills
 
