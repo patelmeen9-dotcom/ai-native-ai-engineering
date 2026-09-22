@@ -15,13 +15,36 @@ The agent observes a loan application and its supporting documents. It must sele
 ## Status
 
 - [x] Problem selected
-- [ ] Research file created
-- [ ] Discussions conducted
-- [ ] Agent designed
+- [x] Research file created
+- [ ] Discussions conducted (in progress)
+- [x] Agent designed
 - [ ] Agent tested
 - [ ] Preprint written
 - [ ] Published
 
-## How to Run
+## Agent Design
 
-(To be filled in later)
+### 1. Input
+
+The agent observes:
+- Loan application: amount, purpose, stated income, stated employment duration, stated debts
+- Applicant credit score (external)
+- Extracted document fields (OCR/parsing):
+  - Payslip: income, employer, months covered, extraction confidence
+  - Bank statement: monthly deposits, months covered, extraction confidence
+  - ID document: name, DOB, extraction confidence
+  - Proof of reserves (if provided): balance, statement period
+  - Gift letter (if provided): amount, donor relation
+- Document metadata: file type, creation date, tamper signals
+
+### 2. Hidden State
+
+Single hidden state for Week 1: **eligibility**.
+
+| State | Meaning |
+|---|---|
+| ELIGIBLE | Applicant meets income, employment, DTI criteria |
+| NOT_ELIGIBLE | Applicant fails at least one criterion |
+| UNKNOWN | Evidence is insufficient to determine |
+
+### 3. Belief
